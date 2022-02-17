@@ -12,6 +12,7 @@ Part 3: Using GIT
 Git is, among other things, a way to interact with Github via a program. First things first: download it from https://git-scm.com/downloads . After you've done that, open up WebStorm to your project from earlier, and click on the VCS toolbar at the top of the window. From the dropdown, click "Enable version control integration" and select Git as the method to do so. Afterward, the VCS menu should switch to Git.  We can now treat our Github repository as a **remote** repository: one that's hosted on the internet. First, though, we've gotta connect to it! Click the Git drop-down, and then the Clone option towards the bottom. Copy-paste in the URL of your Github repository, and then log in via Github to validate the connection. From here, we can interact with our repository in a ton of different ways. Let's now **clone** its contents, downloading the repository to our hard drive. We can now either **fetch** or **pull** the repository to sync the real copy up with our clone if someone makes changes while we're working on our local copy. Now that we've done that, let's add our test.html to the Github repository! First, we have to **commit** the new file creation, similar to how we had to in Part 1. Next, we **push** the commit to the Github repository, and there it is! This is the absolute basics of using Git, but it should make it easier to interact with a larger project in the future.
 
 Part 4: Glossary
+
 Branch  - an alternate version of a repository, usually created to test out changes before they are folded into the main, "master", repository.
 Clone  - A specifically local, offline version of a repository.
 Commit  - A change to a repository or file. "Committing" is the act of putting these changes into reality.
@@ -26,6 +27,7 @@ Remote  - a secondary copy of a repository, possibly for backup or for personal 
 Repository  - The "folder" that contains your project.
 
 Part 5: Resources
+
 https://docs.github.com/en/get-started/quickstart/hello-world
 https://github.com/git-guides/git-push
 https://www.jetbrains.com/help/webstorm/set-up-a-git-repository.html#put-existing-project-under-Git 
